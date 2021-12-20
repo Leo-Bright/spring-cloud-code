@@ -5,5 +5,9 @@ spring:
     consul:
       host: 127.0.0.1
       port: 8500
+      config:
+        format: yaml
+        prefix: config
+        data-key: default
 server:
   port: 8083
